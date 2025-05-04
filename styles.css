@@ -89,7 +89,7 @@ body {
 
 .contact-info__block {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -273,7 +273,7 @@ body {
 }
 
 .additional-info__hobbies {
-  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .additional-info__hobbies-header {
@@ -313,4 +313,8 @@ body {
   max-height: none;
   opacity: 1;
   display: block;
+}
+
+.additional-info__life-events-list li {
+  margin-bottom: 5px;
 }
