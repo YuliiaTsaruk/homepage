@@ -104,6 +104,11 @@ body {
   justify-content: start;
 }
 
+.contact-info__item:hover {
+  color: var(--text-decoration-color);
+  transition: color 0.3s ease;
+}
+
 .contact-info__item:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -116,9 +121,13 @@ body {
 }
 
 .contact-info__item-icon path {
-  fill: var(--icon-color);
+  fill: currentColor;
+  transition: fill 0.3s ease;
 }
 
+.contact-info__item:hover .contact-info__item-icon path {
+  fill: var(--text-decoration-color);
+}
 .contact-info__item-icon {
   height: 1.1428rem;
   vertical-align: text-bottom;
