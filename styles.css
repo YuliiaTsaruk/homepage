@@ -287,3 +287,30 @@ body {
 
   color: var(--secondary-text-color);
 }
+
+.additional-info__life-events-header {
+  margin-bottom: 20px;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.additional-info__life-events-header:hover {
+  color: var(--text-decoration-color);
+}
+
+.additional-info__life-events-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: var(--secondary-text-color);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+}
+
+.additional-info__life-events-list.open {
+  max-height: none;
+  opacity: 1;
+  display: block;
+}
