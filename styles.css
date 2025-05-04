@@ -166,6 +166,12 @@ body {
   margin-bottom: 15px;
 }
 
+.skills__subheader {
+  color: var(--secondary-text-color);
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
